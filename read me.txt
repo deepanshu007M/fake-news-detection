@@ -1,0 +1,5 @@
+open app.py
+open terminal
+run= Set-ExecutionPolicy RemoteSigned -Scope Process
+run= newsapp/scripts/activate
+run = python app.py

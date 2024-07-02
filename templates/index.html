@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News|HOME</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+
+<body>
+    <div id="home">
+        <div class="container">
+            <h1 class="logo">Fake News Detection</h1>
+
+        </div>
+        <div class="navbar">
+            <nav class="top-nav">
+                <a href="#Home" class="navlink">HOME</a>
+                <a href="#finance" class="navlink">TRY</a>
+                <a href="#invest" class="navlink">ABOUT US</a>
+
+            </nav>
+
+        </div>
+
+
+        <div class="intro">
+            <div class="in-left">
+                <p class="intextleft">WELCOME TO WORLD'S LEADING FAKE NEWS DETECTION PLATFORM</p>
+                <p class="intextright">Try our product now</p>
+            </div>
+
+            <div class="login">
+
+                <a href="/login.html" class="navcenter">Login</a>
+                <a href="templates/signin.html" class="navcenter">Signup</a>
+
+            </div>
+            <div class="in-right">
+                <p class="intextleft2">FAKE NEWS DETECTER is a product of VIEW AI© founded in the year 2024 with an aim to provide best AI services across Globe. </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="finance">
+        <div class="content-heading">
+
+            <h2 class="heading">
+                <B>TRY OUR PRODUCTS NOW</B>
+            </h2>
+
+        </div>
+
+        <div class="card">
+
+            <div class="cards">
+                <center>
+                    <ul>
+                        <li><a id="pred" target="_blank" href="/prediction.html">News Detection</a> </li>
+
+
+                    </ul>
+                </center>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <div id="invest">
+
+
+    </div>
+
+    <div class="info">
+        <center>
+            <div>
+                <h2 class="contact">Contact Us:</h3>
+            </div>
+            <div class="form">
+                <form>
+
+                    <div class="innerform">
+                        <p class="labels">
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" id="fullname" placeholder="Your Name" required>
+                        </p>
+                        <p class="labels">
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="emale" placeholder="Abcd@gmail.com" required>
+                        </p>
+                        <p class="labels">
+                            <label for="phone">Phone No:</label>
+                            <input type="tel" id="number" placeholder="9274xxxxxx" pattern="[0-9]{10}" required>
+                        </p>
+                        <p class="labels">
+                            <label for="query">Query:</label>
+                            <textarea name="query" id="query" cols="30" rows="2"></textarea>
+                        </p>
+                        <input type="submit" id="submit" value="Submit">
+                        <p class="message">Our executive will get back to you once he verifies that credentials are correct.</p>
+                        <p class="message">Our waiting time is generally 30 minutes.</p>
+                    </div>
+
+                </form>
+
+            </div>
+    </div>
+
+    <div class="footer-main">
+        <h2 class="foot-links">Quick Links</h2>
+
+        <div class="items">
+            <div class="item1">
+                <ul class="foot">
+                    <li class="desc">Terms and conditions</li>
+                    <li class="desc">Fraud prevention</li>
+                    <li class="desc">Privacy and Security</li>
+                    <li class="desc">Key Benefits</li>
+
+
+                </ul>
+            </div>
+            <div class="item2">
+                <ul class="foot">
+                    <li class="desc">Fake News Detector</li>
+                    <li class="desc">Captcha Services</li>
+                    <li class="desc">Bot Detector</li>
+                    <li class="desc">Chat Bot</li>
+                </ul>
+
+            </div>
+            <div class="item3">
+                <ul class="foot">
+                    <li class="desc">Pricing</li>
+                    <li class="desc">Organisation Plans</li>
+                    <li class="desc">Investors</li>
+                    <li class="desc">Founders</li>
+
+            </div>
+        </div>
+        </center>
+
+
+
+
+    </div>
+
+    <div class="end-footer">
+        <p>Maintained and owned by <b>Deepanshu and Dev©</b></p>
+    </div>
+
+</body>
+
+</html>
